@@ -18,7 +18,6 @@
 
 */
 
-
 #include <stdio.h>
 int main()
 {
@@ -40,24 +39,21 @@ int main()
         {
         case 1:
             z = x + y;
-            printf("Result: %.2f \n", z);
             break;
         case 2:
             z = x - y;
-            printf("Result: %.2f \n", z);
             break;
         case 3:
             z = x * y;
-            printf("Result: %.2f \n", z);
             break;
         case 4:
             z = x / y;
-            printf("Result: %.2f \n", z);
             break;
         default:
             printf("Invalid input - %d \n", a);
             break;
         }
+        printf("Result: %.2f \n", z);
         break;
 
     default:
